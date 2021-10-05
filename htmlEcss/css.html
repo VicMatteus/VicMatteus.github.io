@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			crossorigin="anonymous"
+		/>
+
+        <link rel="icon" type="image/x-icon" href="https://clipartart.com/images/udacity-logo-clipart-2.png" />
+
+		<!--CSS standalone-->
+		<link rel="stylesheet" href="./css/css.css" />
+
+		<title>Coders || CSS</title>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-light bg-ligth static-top" style="background-color: #0a58ca">
+			<div class="container">
+				<div class="logo">
+					<!--só pra responsividade-->
+					<a
+						class="navbar-brand"
+						href="../index.html"
+						style="
+							color: #0a58ca;
+							background-color: aliceblue;
+							border-radius: 10%;
+							padding: 2px;
+							font-family: 'Comfortaa', cursive;
+						"
+						>&ltCoders!&gt</a
+					>
+				</div>
+				<form action="POST" class="campos">
+					<div class="campo1">
+						<label for="email" style="color: aliceblue">Email: </label>
+						<input class="login" type="email" name="email" id="email" placeholder="exemplo@gmail.com" />
+					</div>
+					<div class="campo1">
+						<label for="senha" style="color: aliceblue">Senha: </label>
+						<input class="login" type="password" name="senha" id="senha" />
+					</div>
+					<div class="butaoLogin">
+						<button class="btn loginBtn" type="submit">Entrar!</button>
+						<button type="button" class="btn loginBtn">
+							<a href="#showcase" style="text-decoration: none; color: aliceblue">Cadastre-se</a>
+						</button>
+					</div>
+				</form>
+			</div>
+		</nav>
+
+		<main>
+			<div class="parallaxMainPage"></div>
+
+			<h1>Aprenda mais sobre CSS</h1>
+
+			<h4>Mas afinal, o que é CSS</h4>
+			<p>
+				Cascading Style Sheet, mais conhecido como CSS, é uma linguagem de estilos que, assim como o HTML, também não é
+				considerada uma linguagem de programação. Ela é responsável por separar a parte estrutural da aplicação (que
+				ficará nas mãos do HTML) da parte estética.
+			</p>
+
+			<div>
+				<h4>Cascata??</h4>
+				<p>
+					Isso mesmo. É possível usar mais de um arquivo CSS ao mesmo tempo, no mesmo arquivo HTML para estilizar a
+					aplicação. Daí a palavra “cascata”. Isso permite várias interações diferentes, porém é preciso tomar cuidado
+					para não se perder e deixar o código confuso, seguindo sempre as regras para isso.
+				</p>
+				<h4>E qual a diferença entre HTML e CSS?</h4>
+				<p>
+					Quase toda! O CSS é responsável pelo estilo da aplicação, como cores, fontes, tamanhos e alinhamentos. Já o
+					HTML surge como o esqueleto: ele que sustenta toda a aplicação, separa e individualiza conteúdos e mantém tudo
+					no lugar. Para exemplificar, podemos comprar o HTML com os ossos do corpo, o JavaScrip sendo os músculos e
+					nervos fazendo toda a parte prática e o CSS sendo nossa aparência, como cores dos cabelos, olhos e pele.
+				</p>
+			</div>
+
+			<div>
+				<h4>JavaScript? Tem algo a ver com aquela Xícarazinha, certo?</h4>
+				<p>
+					Errado! O JavaScript é uma linguagem de programação separada e independente do Java, aquela da xícara, sabe? O
+					JS possuí suas próprias sintaxes, bibliotecas, funções e versões.<br />
+					Mas você deve estar se perguntando: porque JAVAscript?<br />
+					Bom, quanto a isso, existe muitas histórias, teorias e controvérsias. Alguns dizem que ela levou esse nome
+					devido apenas para surfar no marketing do Java. Outros dizem que ela levou esse nome para trabalhar de maneira
+					Complementar com o Java. Mas a verdadeira origem do nome, só os criadores sabem!
+				</p>
+				<h4>Historicamente falando....</h4>
+				<p>
+					Voltando ao CSS, ele foi proposto pela primeira vez em Outubro de 1994, por Hakon Lie, que queria facilitar a
+					programação de sites, que na época era muito mais complexa. As pessoas tinham que utilizar mais códigos para
+					chegar a um resultado simples, como criar uma tabela.<br />
+					Em 1995 o CSS1 foi desenvolvido pela W3C, um grupo de empresas do ramo da informática. A partir dai, a
+					linguagem de estilos ganhou muito destaque entre os desenvolvedores.
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<img
+						class="bd-placeholder-img"
+						width="170"
+						height="170"
+						role="img"
+						aria-label="Marcador de posição: 140 x 140"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						src="./img/sass.png"
+					/>
+
+					<h2>Extensões</h2>
+
+					<p class="cards">
+						O CSS possuem algumas extensões que adicionam funcionalidades ao código. Algumas delas são o SCSS, SASS e
+						LESS.<br />
+						O Objetivo dessas extensões é para facilitar ainda mais o desenvimento, vide que ele adiciona
+						funcionalidades que reduzem a quantidade de código digitado, deixando o código claro, e também mais
+						simples de dar manutenção.
+					</p>
+					<p>
+						<a
+							class="btn btn-secondary"
+							href="https://www.htmlprogressivo.net/2013/06/Tags-aninhadas-e-identacao-de-um-codigo-HTML.html"
+							target="_blank"
+							>Saiba Mais</a
+						>
+					</p>
+				</div>
+
+				<div class="col-lg-4">
+					<img
+						class="bd-placeholder-img"
+						width="160"
+						height="140"
+						role="img"
+						aria-label="Marcador de posição: 140 x 140"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						src="./img/bootstrap.png"
+					/>
+
+					<h2>Frameworks</h2>
+
+					<p class="cards">
+						O CSS possui diversas bibliotecas chamadas Frameworks. Eles possuem materiais pré-preparados destinados a
+						permitir projetar e estilizar mais fácilmente e criar páginas mais compatíveis com os padrões de páginas
+						da web. No mercado diversas são as opções disponíveis de frameworks, e ver sobre cada um deles é uma
+						excelente forma de encontrar aquele que poderá se adequar ao projeto desejado.
+					</p>
+					<p>
+						<a
+							class="btn btn-secondary"
+							href="https://www.organicadigital.com/blog/o-que-e-web-semantica/"
+							target="_blank"
+							>Saiba Mais</a
+						>
+					</p>
+				</div>
+
+				<div class="col-lg-4">
+					<img
+						class="bd-placeholder-img"
+						width="110"
+						height="140"
+						xmlns="http://www.w3.org/2000/svg"
+						role="img"
+						aria-label="Marcador de posição: 140 x 140"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						src="./img/css4.png"
+					/>
+
+					<h2>CCS4</h2>
+
+					<p>
+						Exite um CSS4? Bom...sim e Não. O CSS evolui em camadas chamadas Levels. Alguns desses "níveis" foram
+						sendo lançados juntos e foram chamados de versões do CSS (CSS 1, CSS2 e o atual CSS 3). Porém, o futuro
+						CSS 4 é deveras obscuro, pois vários níveis que poderiam ser agrupados, estão em estágios diferentes de
+						desenvolvimento e alguns até ja foram lançados. Se haverá uma padronização e o lançamento de um CSS 4, só
+						o tempo dirá.
+					</p>
+					<p>
+						<a
+							class="btn btn-secondary"
+							href="https://www.vivodecodigo.com.br/web-design/css4-a-nova-versao-do-css-que-nunca-existira/"
+							target="_blank"
+							>Saiba Mais</a
+						>
+					</p>
+				</div>
+			</div>
+		</main>
+		<footer class="footer bg-body" style="bottom: 0; width: 100%">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 h-100 text-center text-lg-start my-auto" style="text-align: center">
+						<ul class="list-inline mb-2" style="text-align: center">
+							<li class="list-inline-item"><a href="../sobre.html">Sobre</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="#!">Contatos</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="../contrucao.html">Termos de Uso</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="../contrucao.html">Política de Privacidade</a></li>
+						</ul>
+						<p class="text-muted small mb-4 mb-lg-0" style="text-align: center">
+							&copy; Coders! 2021. Todos os Direitos Reservados.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
