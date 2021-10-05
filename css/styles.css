@@ -1463,6 +1463,11 @@ progress {
 		flex: 0 0 auto;
 		width: 50%;
 	}
+	.col-lg-6 a:hover
+	{
+		transition: ease-in-out 0.5s;
+		transform: scale(1.1);
+	}
 
 	.col-lg-7 {
 		flex: 0 0 auto;
