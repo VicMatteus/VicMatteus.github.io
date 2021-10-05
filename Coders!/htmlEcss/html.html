@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="icon" type="image/x-icon" href="https://clipartart.com/images/udacity-logo-clipart-2.png" />
+
+		<!--CSS standalone-->
+		<link rel="stylesheet" href="./css/html.css" />
+
+		<title>Coders || HTML</title>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-light bg-ligth static-top" style="background-color: #0a58ca">
+			<div class="container">
+				<div class="logo">
+					<!--só pra responsividade-->
+					<a
+						class="navbar-brand"
+						href="../index.html"
+						style="
+							color: #0a58ca;
+							background-color: aliceblue;
+							border-radius: 10%;
+							padding: 2px;
+							font-family: 'Comfortaa', cursive;
+						"
+						>&ltCoders!&gt</a
+					>
+				</div>
+				<form action="POST" class="campos">
+					<div class="campo1">
+						<label for="email" style="color: aliceblue">Email: </label>
+						<input class="login" type="email" name="email" id="email" placeholder="exemplo@gmail.com" />
+					</div>
+					<div class="campo1">
+						<label for="senha" style="color: aliceblue">Senha: </label>
+						<input class="login" type="password" name="senha" id="senha" />
+					</div>
+					<div class="butaoLogin">
+						<button class="btn loginBtn" type="submit">Entrar!</button>
+						<button type="button" class="btn loginBtn">
+							<a href="#showcase" style="text-decoration: none; color: aliceblue">Cadastre-se</a>
+						</button>
+					</div>
+				</form>
+			</div>
+		</nav>
+		<main>
+			<div class="parallaxMainPage"></div>
+
+			<h1>Aprenda mais sobre HTML</h1>
+
+			<h4>Afinal de contas, o que é HTML?</h4>
+			<p>
+				HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de
+				Hipertexto"). Vale destacar que HTML não é uma linguagem de programação, mas sim um conjunto de regras para
+				estruturar páginas da web
+			</p>
+
+			<div>
+				<h4>Hyper o que?</h4>
+				<p>
+					Hipertexto. Ele refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou
+					entre sites. Afinal, links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a
+					páginas criadas por outras pessoas, você se torna um participante ativo na world wide web.
+				</p>
+				<h4>E o que essa tal "Linguagem de marcação" faz?</h4>
+				<p>
+					Um elemento HTML é separado de outro texto em um documento por "tags", que consistem no nome do elemento entre
+					"&lt;" e "&gt;". O nome de um elemento dentro de uma tag é insensível a maiúsculas e minúsculas. Isto é, pode
+					ser escrito em maiúsculas, minúsculas ou um mistura. Por exemplo, a tag &lt;title&gt; pode ser escrita como
+					&lt;Title&gt;, &lt;TITLE&gt; ou de qualquer outra forma. O HTML usa essas "Marcações" para anotar texto,
+					imagem e outros conteúdos para exibição em um navegador da Web.
+				</p>
+			</div>
+
+			<div>
+				<h4>Qual a relação entre HTML, JavaScript e CSS?</h4>
+				<p>
+					O HTML é o esqueleto puro do site, que delimita a estrutura. Uma montagem simples e sem muito estilo. O CSS
+					adiciona a beleza ao site, com cores, fontes e atributos voltados ao estilo, para dar mais vivacidae ao site.
+					Já o JavaScript age como a lógica do site. O JS é uma linguagem de programação com as demais, com variáveis,
+					constantes, funções, etc.<br />
+					Por exemplo, ao entrar em um site, você irá presenciar o HTML na estrutura do site e o CSS logo de cara. O JS
+					só será visto ao preencher e enviar um formulário, quando o site usar um pop-up, carroceis, galerias de
+					imagens e tantos outros elementos.
+				</p>
+				<h4>Um pouco de história</h4>
+				<p>
+					A linguagem foi pensada para compartilhar documentos científicos entre os acadêmicos, de acordo com o objetivo
+					inicial da própria internet. Foi criada por Tim Berners-Lee, britânico que também criou a World-Wide-Web
+					(www). A criação foi impulsionada pelo sucesso da conexão entre um cliente e um servidor na internet, em
+					dezembro de 1990.<br />
+					Desde então, o HTML não parou mais e atualmente utilizamos a versão 5, lançada em 2014 e já conseguimos ver no
+					horizonte, sinais do HTML 6 que será lançado num futuro não tão distante.
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<img
+						class="bd-placeholder-img"
+						width="140"
+						height="140"
+						role="img"
+						aria-label="Marcador de posição: 140 x 140"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						src="./img/indentacao.png"
+					/>
+
+					<h2>Indentação</h2>
+
+					<p class="cards">
+						Diferentemente do Python e e outras linguagem onde a indentação é obrigatória, no HTML isso serve apenas
+						para organizar e facilitar a leitura do código. É fácil encontrar páginas da web com milhares e até
+						centenas de milhares de linhas de código, que, se não forem indentadas, vira uma bagunça só!
+					</p>
+					<p>
+						<a
+							class="btn btn-secondary"
+							href="https://www.htmlprogressivo.net/2013/06/Tags-aninhadas-e-identacao-de-um-codigo-HTML.html"
+							target="_blank"
+							>Saiba Mais</a
+						>
+					</p>
+				</div>
+
+				<div class="col-lg-4">
+					<img
+						class="bd-placeholder-img"
+						width="140"
+						height="167"
+						role="img"
+						aria-label="Marcador de posição: 140 x 140"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						src="./img/semantic.png"
+					/>
+
+					<h2>Web Semântica</h2>
+
+					<p class="cards">
+						O crescimento desenfreado da internet acabou ocasionando um problema: a dispersão de informações. Assim
+						surgiu o movimento Semantic Web que busca organizar e padronizar as informações. Trocando em miúdos, não é
+						mais preciso buscar por palavras chaves específicas para encontrar o que quer buscar.
+					</p>
+					<p>
+						<a
+							class="btn btn-secondary"
+							href="https://www.organicadigital.com/blog/o-que-e-web-semantica/"
+							target="_blank"
+							>Saiba Mais</a
+						>
+					</p>
+				</div>
+
+				<div class="col-lg-4">
+					<img
+						class="bd-placeholder-img"
+						width="110"
+						height="140"
+						xmlns="http://www.w3.org/2000/svg"
+						role="img"
+						aria-label="Marcador de posição: 140 x 140"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						src="./img/HTML6.png"
+					/>
+
+					<h2>HTML6</h2>
+
+					<p>
+						O HTML 6 está a caminho e vai trazer inúmeras novidades, como melhoramento em autenticações de segurança,
+						menus customizáveis, biblíotecas dedicadas e tantas outras novidades que a linguagem (e os Devs) tanto
+						merecem!
+					</p>
+					<p><a class="btn btn-secondary" href="https://morioh.com/p/6d422fc49bd2" target="_blank">Saiba Mais</a></p>
+				</div>
+			</div>
+		</main>
+		<footer class="footer bg-body" style="bottom: 0; width: 100%">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 h-100 text-center text-lg-start my-auto" style="text-align: center">
+						<ul class="list-inline mb-2" style="text-align: center">
+							<li class="list-inline-item"><a href="../sobre.html">Sobre</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="#!">Contatos</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="../contrucao.html">Termos de Uso</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="../contrucao.html">Política de Privacidade</a></li>
+						</ul>
+						<p class="text-muted small mb-4 mb-lg-0" style="text-align: center">
+							&copy; Coders! 2021. Todos os Direitos Reservados.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
